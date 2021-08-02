@@ -37,7 +37,7 @@ function ViewTable() {
     return (
         <div>
             <div className="row mt-2 ">
-                <div className="bg-whitesmoke p-4 col-6">
+                <div className="bg-whitesmoke p-2 col-6">
                     <h4>Office Details</h4>
                     <hr />
                     {
@@ -56,7 +56,7 @@ function ViewTable() {
                         }
                         )}
                 </div>
-                <div className="bg-whitesmoke p-4 col-6">
+                <div className="bg-whitesmoke p-2 col-6">
                     <h4>Bill To</h4>
                     <hr />
                     {
@@ -76,7 +76,7 @@ function ViewTable() {
             <br />
 
             <div className="row">
-                <div className="bg-whitesmoke p-4 col-12">
+                <div className="bg-whitesmoke p-2 col-12">
                     <h4>Item Details</h4>
                     <hr />
                     <table className="table table-sm ">
@@ -117,7 +117,7 @@ function ViewTable() {
                 </div>
             </div>
             <div className="row">
-                <div className="col bg-whitesmoke p-4 col">
+                <div className="col bg-whitesmoke p-2 col">
                     {
 
                         invoiceDataList && invoiceDataList.map((s, index) => {
@@ -133,7 +133,7 @@ function ViewTable() {
             <br />
 
             <div className="row">
-                <div className="bg-whitesmoke p-4 col">
+                <div className="bg-whitesmoke p-2 col">
                     <h4>Pay Details</h4>
                     <hr />
                     {
