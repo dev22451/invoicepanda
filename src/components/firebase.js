@@ -1,5 +1,8 @@
 import firebase from 'firebase'
 
+const fetch = require("node-fetch");
+
+
 var firebaseApp = firebase.initializeApp({
     apiKey: "AIzaSyDZltCAAUgRmiU9z3guPuVXJGa38PtPXZw",
     authDomain: "pandainvoice-d245c.firebaseapp.com",
