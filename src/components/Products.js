@@ -373,7 +373,7 @@ const Products = () => {
                         <div className="col-md-12">
                             {/* <div className="d-flex"> */}
                             <div className="head">
-                                <div className="bg-white p-4 officeDetails">
+                                <div className="colordiv p-4 officeDetails">
                                     <h4 className="office">Office Details Bill From</h4>
                                     <hr className="new1" />
                                     <div className="form-group row">
@@ -452,7 +452,7 @@ const Products = () => {
                     </div>
                     <br />
 
-                    <div className="col-md-12 bg-whitesmoke p-4  productdata">
+                    <div className="col-md-12 colordiv p-4  productdata">
                         <h4 className="products">Item</h4>
                         <hr className="new1" />
                         {/** use map in prodct of invoice */}
@@ -568,7 +568,7 @@ const Products = () => {
                     <br />
 
                     <div className="col-md-12">
-                        <div className="bg-whitesmoke p-4 Billto">
+                        <div className="colordiv p-4 Billto">
                             <h4 className="bill">Bill To</h4>
                             <hr className="mb-2" />
                             <div className="form-group row">
@@ -664,7 +664,7 @@ const Products = () => {
 
 
 
-                    <div className="col-md-12 bg-whitesmoke p-4 paymentdetails ">
+                    <div className="col-md-12 colordiv p-4 paymentdetails ">
                         <h4 className="bill">Payment Details</h4>
                         <hr className="new1" />
                         <div className="form-group row ">

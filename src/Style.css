@@ -67,6 +67,7 @@ margin-bottom:12px ;
 transition: box-shadow .3s;
   border-radius:10px;
   border: 1px solid #ccc;
+  background-color: #f3f1f134;
  
 }
 .Billto:hover {
@@ -101,4 +102,8 @@ float: right;
 
 .totalview{
   float:right;
+}
+
+.colordiv {
+  background-color: #f3f1f126;
 }
