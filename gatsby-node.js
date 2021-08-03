@@ -12,7 +12,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
             module: {
                 rules: [
                     {
-                        test: /bad-module/,
+                        test: /firebase/,
                         use: loaders.null(),
                     },
                 ],
