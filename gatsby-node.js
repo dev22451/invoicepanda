@@ -5,6 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+const fetch = require("node-fetch");
 
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     if (stage === "build-html" || stage === "develop-html") {
@@ -12,9 +13,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
             module: {
                 rules: [
                     {
-                        test: /history/,
                         test: /firebase/,
-                        test: /react-router-dom/,
                         use: loaders.null(),
                     },
                 ],

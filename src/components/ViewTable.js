@@ -5,7 +5,6 @@ import PlaceIcon from '@material-ui/icons/Place';
 import EmailTwoToneIcon from '@material-ui/icons/EmailTwoTone';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import { useRouteMatch } from 'react-router';
-import { Contacts } from '@material-ui/icons';
 
 
 const fetch = require("node-fetch");
