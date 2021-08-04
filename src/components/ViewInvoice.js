@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { db } from "./firebase"
-import { useHistory } from "react-router-dom"
+import { useHistory } from "react-router"
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import ViewTable from './ViewTable';
 // import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
